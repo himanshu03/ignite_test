@@ -6,6 +6,19 @@
     {
       "type": "get",
       "url": "https://ignite.where2stageit.com/dashboard.html"
+    },
+    {
+      "type": "store",
+      "text": "",
+      "variable": ""
+    },
+    {
+      "type": "verifyElementValue",
+      "locator": {
+        "type": "id",
+        "value": "date-range"
+      },
+      "value": "08/10/2013 - 09/20/2013"
     }
   ]
 }
