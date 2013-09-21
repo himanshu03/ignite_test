@@ -12,7 +12,11 @@ public class rediff {
         FirefoxDriver wd;
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        wd.get("https://itunes.apple.com/us/app/sauce/id564308477?mt=12&ign-mpt=uo%3D4");
+        wd.get("https://ignite.where2stageit.com/dashboard.html");
+        String  = "" + ;
+        if (!wd.findElement(By.id("date-range")).getAttribute("value").equals("08/10/2013 - 09/20/2013")) {
+            System.out.println("verifyElementValue failed");
+        }
         wd.quit();
     }
     
