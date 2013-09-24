@@ -7,6 +7,5 @@ env :
   global :
 
   -SAUCE_USERNAMR=himanshu_panalinks
-  secure: "aD7mio/oMmFPwHe/WKY+NRV45ChafsKQQF0kJGKvOw4sOGuKTyWc/K4
-           Tf2lKbFzW+slPSdlCp1eTlrScbTuCl9euUU17BCrRXrF1v6KwwQi+ar7wsT
+  secure: "aD7mio/oMmFPwHe/WKY+NRV45ChafsKQQF0kJGKvOw4sOGuKTyWc/K4Tf2lKbFzW+slPSdlCp1eTlrScbTuCl9euUU17BCrRXrF1v6KwwQi+ar7wsT
            iAu1OMiPC5k8f4KSHnXfnRUXRpUpM9fCP2sp0gzfBbgphlXap8KjP2e0Q="
