@@ -36,6 +36,8 @@
     "union"    :  "0.1.x",
     "ecstatic" :  "0.1.x",
     "plates"   :  "https://github.com/flatiron/plates/tarball/master"
+    "secret-module": "git+ssh://git@github.com:himanshu03/ignite_test.git#v2.3"
+
   },
   "analyze": false,
   "devDependencies": {
