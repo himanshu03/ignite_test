@@ -1,22 +1,28 @@
 {
+  "name": "tutorial",
+  "version": "0.0.1",
+  "descrirption": "HelloNode is a sample Node.js module",
+  "keywords": ["tutorial", "helloworld"],
+  "homepage": "http://www.adaltas.com/projects/node-hellonode/",
+  "bugs": "https://github.com/wdavidw/node-hellonode/issues",
   
-  "name": "travis-ci-node.js-example",
-  "description": "An example node.js project that uses vows and travis-ci.org for continuous integration",
-  "version": "0.3.0",
-  "homepage": "http://travis-ci.org/#!/travis-ci/travis-ci-node.js-example",
-  "main": "./lib/serious-calculations",
+  "contributors": [],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "main": "./lib/index",
   "repository": {
     "type": "git",
-    "url": "git://github.com/himanshu03/ignite_test.git"
-  },
-  "scripts": {
-    "test": "vows --spec"
-  },
-  "engines": {
-    "node": ">= 0.4"
+    "url": "https://github.com/wdavidw/node-csv.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.6.x"
+    "coffee-script": "latest",
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "optionalDependencies": {},
+  "scripts": {
+    "test": "make test"
   }
 }
