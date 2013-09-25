@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - 0.8
+  - "0.10"
+  - "0.8"
   global:
     # Sauce Labs are OK with this and it is currently necessary to expose this information for testing pull requests;
     # please get your own free key if you want to test yourself
