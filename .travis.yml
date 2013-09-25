@@ -10,9 +10,9 @@ node_js:
 # This extra install section is only necessary if your project has already installed AMD dependencies like Dojo using
 # npm, since AMD path resolution does not follow Node.js path resolution rules but npm does not know this
 #install:
- # - npm install
-  #- cd node_modules/intern
-  #- npm install --production
-  #- cd ../..
-#script: node node_modules/intern/runner.js config=tests/intern
+  - npm install
+  - cd node_modules/intern
+  - npm install --production
+  - cd ../..
+ script: node node_modules/intern/runner.js config=tests/intern
 
