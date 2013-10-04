@@ -2,7 +2,7 @@ language: node_js
 before_script:
      - "npm install -g se-interpreter"
 script:
-     - "se-interpreter Ignite/interpreter_config.json"
+     - "se-interpreter ignite_test/interpreter_config.json"
     
 sauce_connect:
     username: "himanshu_panalinks"
