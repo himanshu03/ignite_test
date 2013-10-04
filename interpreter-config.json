@@ -10,8 +10,8 @@
 },
 "browserOptions":{
 "browserName":"firefox",
-"username":"${himanshu_panalinks}",
-"accessKey":"${297a9a01-7b3f-4cff-a894-320d342f1f2e}"
+"username":"himanshu_panalinks",
+"accessKey":"297a9a01-7b3f-4cff-a894-320d342f1f2e"
 }
 }
 ],
