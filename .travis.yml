@@ -1,21 +1,10 @@
 
 language: node_js
-node_js:
-- '0.6'
-- '0.8'
-- '0.10'
 before_script:
-  - npm install -g grunt-cli
-before_script:
-  - curl https: -//gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
+     - "npm install -g se-interpreter"
 script:
-  - npm test
-env:
-  global:
-  - secure: |-
-      "aD7mio/oMmFPwHe/WKY+NRV45ChafsKQQF0kJGKvOw4sOGuKTyWc/K4Tf2lKbFzW+slPSdlCp1eTlrScbTuCl9euUU17BCrRXrF1v6KwwQi+ar7wsTiAu1OMiPC5k8f4KSHnXfnRUXRpUpM9fCP2sp0gzfBbgphlXap8KjP2e0Q="
-  
-matrix:
-  include:
-    - node_js: '0.10'
-      script: grunt test
+     - "se-interpreter Ignite/interpreter_config.json"
+    
+sauce_connect:
+    username: "w2gi"
+    access_key: "297a9a01-7b3f-4cff-a894-320d342f1f2e"
