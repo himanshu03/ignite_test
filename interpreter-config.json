@@ -1,23 +1,24 @@
 {
-"type":"interpreter-config",
-"configurations":[
-{
-"settings": [
-{
-"driverOptions" "{
-"host": "ondemand.saucelabs.com",
-"port": 80
-},
-"browserOptions":{
-"browserName":"firefox",
-"username":"himanshu_panalinks",
-"accessKey":"297a9a01-7b3f-4cff-a894-320d342f1f2e"
-}
-}
-],
-"scripts":[
-"ignite_test/*"
-]
-}
-]
+  "type": "interpreter-config",
+  "configurations": [
+    {
+      "settings": [
+        {
+          "driverOptions": {
+            "host": "ondemand.saucelabs.com",
+            "port": 80
+          },
+          "browserOptions": {
+            "browserName": "firefox",
+            "username": "himanshu_panalinks",
+            "accessKey": "297a9a01-7b3f-4cff-a894-320d342f1f2e",
+            "os" : "windows 7"
+          }
+        }
+      ],
+      "scripts": [
+        "tests/*"
+      ]
+    }
+  ]
 }
