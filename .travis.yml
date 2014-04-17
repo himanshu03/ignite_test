@@ -5,5 +5,5 @@ script:
      - "se-interpreter interpreter_config.json"
     
 sauce_connect:
-    username: "himanshu_panalinks"
-    access_key: "297a9a01-7b3f-4cff-a894-320d342f1f2e"
+    username: "homeunion"
+    access_key: "0633edc0-ef99-4445-9bf5-093c125a2a34"
