@@ -1,9 +1,0 @@
-language: node_js
-before_script:
-     - "npm install -g se-interpreter"
-script:
-     - "se-interpreter interpreter_config.json"
-    
-sauce_connect:
-    username: "homeunion"
-    access_key: "0633edc0-ef99-4445-9bf5-093c125a2a34"

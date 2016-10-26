@@ -1,0 +1,89 @@
+/**
+ * Created by hverma on 7/29/2016.
+ */
+
+
+
+{
+
+
+ "SSPURL": "http://ssp-qaweb.neustar.biz/ssp/view/login",
+ 
+ "Locators":{
+ 
+ 
+    "Login":{
+    
+           "GUID": "uuid",
+           "TELEPHONENUMBER": "telephoneNumber",
+           "LOGIN": "LOGIN"
+    
+    },
+    
+    "VerificationText":
+    
+    {
+           "GUID" : "//*[@id='newUserForm']/div[2]/div",
+           "TELEPHONENUMBER" : "//*[@id='newUserForm']/div[3]/div[1]"
+    },
+     
+     "AlphanumericTn": {
+     
+             "Popup_message": "//*[@id='newUserForm']/div[3]/div[2]"
+     },
+     
+     "WrongName" : {
+     
+             "firstName" : "fname",
+             "lastName" : "lname",
+             "Suffix" : "//*[@id='myText']"           
+     
+     },
+
+
+     
+     "wrongname_Buisness" : {
+              
+               "BuisnessName" : "//*[@id='collapse']/form/div/div/div/div[2]/div[4]/div/div/input"
+                      
+     },
+     
+     "WrongNameSubmit": {
+          
+          "SUBMIT" : "SUBMIT"
+     },
+     
+     "BuisnessName": {
+            
+            "Buisness" : "bname"
+     },
+     
+     "AccountName" : {
+         
+             "accountName" : "//*[@id='collapse']/form/div/div/div/div[2]/div[1]/div/p[1]"
+     },
+     
+     "AccountName_confirmation" :
+     
+     {
+          "Confirmation_message" : "//*[@id='collapse']/form/div/div/div/div/div[1]/div/div/p[1]"
+     },
+     
+     "AccountNumber": {
+         
+         "AccountName" : "accname"
+     },
+     
+     "AccountNumberSubmit" :
+     {
+        "SUBMIT" : "Submit"
+     }
+    
+    
+    }
+    
+    
+      
+
+
+}

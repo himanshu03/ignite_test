@@ -1,0 +1,331 @@
+{
+
+   "UserData" : {
+   
+   
+   "ValidLoginData": {
+    
+        "GUID" : "OE2GBQ",
+        "TELEPHONENUMBER": "262-361-0452"
+ 
+ 
+ },
+      
+      "InvalidGUIDData":
+      {
+           "GUID" : "123@345",
+           "TELEPHONENUMBER": "3195234252"
+      
+      },
+      
+      "InvalidTnData":
+      {
+           "GUID" : "3DE1YS",
+           "TELEPHONENUMBER": "2@asdf2345"
+      },
+      
+      "ValidGuid_InvalidTn":
+      {
+            "GUID" : "3DE1YS",
+           "TELEPHONENUMBER": "1234567890"
+      
+      },
+      
+      "ValidTn_InvalidGuid":
+      {
+           "GUID" : "1234567",
+           "TELEPHONENUMBER": "262-361-1390"
+      
+      },
+      
+      "BothBlanks":
+      {
+          "GUID" : "",
+           "TELEPHONENUMBER": ""
+      },
+       
+       "AlphaCharacter": {
+            
+            "FirstName" : "Himanshu",
+             "LastName" : "Verma",
+             "Suffix" : "Jr"
+       },
+       
+       "BuisnessName" : {
+              
+              "Buisness" : "Dominos"
+       },
+       
+       "WrongName_inNumeric": {
+       
+             "firstname" : "12345667879",
+             "lastname" : "123456789"
+       },
+       
+       "NumericBuisnessName" :
+       {
+           "Buisness" : "1234567879"
+       },
+       
+       "AccountName_specialCharacter" :
+       
+       {
+          "firstname" : "ASC@#$%^&*(",
+          "lastname" : "ASB%^*&&^(**&%&&^"
+       },
+       
+       "SpecialCharacter_buisnessName" : {
+       
+           "Buisness" : "!@#%$^&&*&^^%"
+       },
+       
+       "AccountNumber_validData" : {
+       
+             "GUID" : "",
+             "TELEPHONENUMBER" : ""
+       },
+        
+        "ValidAccountNumberLoginData" :
+        {
+              "GUID" : "FB7JOH",
+             "TELEPHONENUMBER" : "262-361-0414"
+        },
+        
+        "ValidAccountNumber":{
+            
+            "AccountNumber" : "1234567890"
+        },
+        
+        "AccountNumber_character":
+        {
+          "AccountNumber" : "abcdefghig"
+        },
+        
+        "AccountNumber_alphanumeric":
+        {
+          "AccountNumber" : "123@asbdfh%^"
+        },
+        
+        "FreezeValid_LoginData" :
+        {
+           "GUID1" : "QRSOMR",
+           "GUID2" : "AF37V8",
+           "GUID3" : "XI4RFK",
+           "GUID4" : "O9W1BW",
+           "TELEPHONENUMBER" : "262-361-0328"
+        },
+        
+        "Confirmation_Number":
+        {
+           "Number" : "1234567899"
+        },
+        
+        "FreezeCharcaterData" :
+        {
+           "Character" : "ABCDEFGH"
+        },
+        
+        "FreezeAlphanumericForm":
+        {
+          "alpha" : "1234ALCDSF"
+        },
+        
+        "AuthorizedName_ValidLoginData" :
+        {
+           "GUID1" : "IIZYBM",
+           "GUID2" : "V6MZKB",
+           "GUID3" : "QF1U9K",
+           "GUID4" : "PNT7RW",
+           "TELEPHONENUMBER" : "262-361-0328"
+        },
+        
+         "AuthorizedName_ValidData" :
+         {
+            "Name" : "Himanshu Verma"
+         },
+         
+         "AuthorizedName_InvalidData" :
+         {
+            "Name" : "12345678990"
+         },
+         
+         "AuthorizedName_InvalidData1" :
+         {
+            "Name" : "ALPHA12345'"
+         },
+         
+         "Pin_PasswordvalidLogin" :
+         {
+            "GUID1" : "8ODN3L",
+            "GUID2" : "DSPK3V",
+            "GUID3" : "61HFCW",
+            "GUID4" : "FQZGJF",
+           "TELEPHONENUMBER" : "262-361-0414"
+         },
+         
+         "Pin_validData" : {
+              
+              "Pin_Password" : "1234567890"
+         },
+         
+         "Pin_CharacterData" : {
+              
+              "Pin_Password" : "ABCDEFGHIJ"
+         },
+         
+         "Invalid_Data" : {
+             
+             "invalid" : "ABC"
+         },
+         
+         "Alphanumeric_data":
+         {
+           "Pin_Password" : "123ABCDEF-'"
+         },
+         
+         "WrongAddressLogin": {
+            "GUID1" : "82BVAJ",
+            "GUID2" : "G2U9HQ",
+            "GUID3" : "0REFFH",
+            "GUID4" : "IGZCMF",
+            "GUID5" : "9STFPH",
+            "GUID6" : "ZYKMRI",
+            "GUID7" : "Z9LDZJ",
+            "GUID8" : "CWUD0I",
+            "GUID9" : "ALGFOU",
+            "GUID10" : "GKNYY9",
+            "GUID11" : "QZN4FL",
+            "TELEPHONENUMBER" : "262-361-0331"
+         
+         },
+         
+         "WrongAddressValidData_Character" : {
+            
+           "ADDRESS1" : "Dickens Road Dickens Road",
+           "UNIT" : "Romanian M. Society",
+           "CITY" : "Lilburn",
+           "STATE" : "Georgia ",
+           "ZIPCODE" : "30047"
+         },
+         
+          "WrongAddressValidData_Numeric" : {
+            
+            "ADDRESS1" : "123456789",
+            "UNIT" : "12345678",
+            "CITY" : "Lilburn",
+            "STATE" : "Georgia ",
+            "ZIPCODE" : "30047"
+         },
+         
+         "WrongAddressValidData_CharacterNumeric" : {
+            
+            "ADDRESS1" : "SuperiorAvenue 523 Superior Faires 9520 Faires Farm Road",
+            "UNIT" : "Street NW 23rd Street",
+            "CITY" : "Houston",
+            "STATE" : "New York",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_NumericCharacter" : {
+            
+            "ADDRESS1" : "5230 Superior Avenue 9520 Faires Farm",
+            "UNIT" : "23rdStreet",
+            "CITY" : "Houston",
+            "STATE" : "New York",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_CharacterNumericNNNNNNNNNN" : {
+            
+            "ADDRESS1" : "SuperiorAvenue 5230 5230 FairesFarm 9520 9520",
+            "UNIT" : "Street 23rd 23rd",
+            "CITY" : "Houston",
+            "STATE" : "New York",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_NumericCharacterCCCCCCCCC" : {
+            
+            "ADDRESS1" : "5230 SuperiorAvenue SuperiorAvenue 9520 FairesFarm FairesFarm",
+            "UNIT" : "23rd Street Street",
+            "CITY" : "Houston",
+            "STATE" : "New York",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_smallCharacter" : {
+            
+            "ADDRESS1" : "superioravenue 5230 5230 fairesfarm 9520 9520",
+            "UNIT" : "street 23rd 23rd",
+            "CITY" : "houston",
+            "STATE" : "new york",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_cityAddress" : {
+            
+            "ADDRESS1" : "superioravenue 5230 5230 fairesfarm 9520 9520",
+            "UNIT" : "street 23rd 23rd",
+            "CITY" : "123456789",
+            "STATE" : "new york",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_cityAddress_alphanumeric" : {
+            
+            "ADDRESS1" : "superioravenue 5230 5230 fairesfarm 9520 9520",
+            "UNIT" : "street 23rd 23rd",
+            "CITY" : "123abc123",
+            "STATE" : "new york",
+            "ZIPCODE" : "77076"
+         },
+         
+         "WrongAddressValidData_Zipcode" : {
+            
+            "ADDRESS1" : "superioravenue 5230 5230 fairesfarm 9520 9520",
+            "UNIT" : "street 23rd 23rd",
+            "CITY" : "123abc123",
+            "STATE" : "new york",
+            "ZIPCODE" : "1234567890"
+         },
+         
+         "ChangeDueDate" : {
+         
+           "Verification_code1" : "PU7KPL",
+           "Verification_code2" : "PDO8BG",
+           "Ported_tn" : "262-361-1311"
+         
+         }
+         
+        
+   
+   
+   
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
