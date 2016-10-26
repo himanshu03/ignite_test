@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{POM node_modules}" />
-    <file url="file://$PROJECT_DIR$/test_spec/Authorizename.js" libraries="{ECMAScript 6, jasmine-promise-matchers-DefinitelyTyped}" />
-    <file url="PROJECT" libraries="{selenium-webdriver-DefinitelyTyped}" />
-  </component>
-</project>
