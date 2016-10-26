@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="61.56" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\asharma26\Desktop\Core_Hybrid_Framework"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASHARM~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\asharma26\Neustar\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3502147916182689756.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_73/bin/server;C:/Program Files/Java/jre1.8.0_73/bin;C:/Program Files/Java/jre1.8.0_73/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_73\bin;D:\apache-ant-1.9.4\bin;C:\Users\asharma26\AppData\Roaming\npm;D:\eclipse_64;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\asharma26"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="asharma26"/>
+    <property name="java.class.path" value="/D:/eclipse_64/plugins/org.eclipse.m2e.maven.runtime_1.5.1.20150109-1819/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\asharma26\Desktop\Core_Hybrid_Framework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="charter_spectrum_login" classname="com.xavient.framework.WebApplicationSuite.charter_spectrum_login" time="61.56">
+    <failure type="java.lang.reflect.InvocationTargetException:">java.lang.reflect.InvocationTargetException: null
+	at com.xavient.framework.util.Keywords_reflection.input(Keywords_reflection.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.xavient.framework.util.Keywords_reflection.executeKeywords(Keywords_reflection.java:124)
+	at com.xavient.framework.WebApplicationSuite.charter_spectrum_login.charter_spectrum_login(charter_spectrum_login.java:44)
+</failure>
+    <system-out><![CDATA[neustar_login
+2----------------------------Screen Function
+Total rows=========== 2
+menu_management_add_menu
+6----------------------------Screen Function
+Total rows=========== 2
+menu_management_search
+10----------------------------Screen Function
+Total rows=========== 2
+menu_management_edit_and_delete
+14----------------------------Screen Function
+Total rows=========== 2
+charter_spectrum_login
+18----------------------------Screen Function
+Total rows=========== 2
+neustar_login
+Runmode
+N
+Iteration no. 1
+counter    94
+menu_management_add_menu
+Runmode
+N
+Iteration no. 1
+counter    1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+menu_management_search
+Runmode
+N
+Iteration no. 1
+counter    25
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+menu_management_edit_and_delete
+Runmode
+N
+Iteration no. 1
+counter    48
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+true---------------SKIP Function----------------- 1
+charter_spectrum_login
+Runmode
+Y
+charter_spectrum_login
+C:\Users\asharma26\Desktop\Core_Hybrid_Framework\executioninfo\input-data\webApplicationSuite.xlsx
+18
+openBrowser ---  --- Browser
+New Generated Value ::9
+Starting function openBrowser - chrome
+Ending  function openBrowser with status PASS
+navigate ---  --- 
+New Generated Value ::3
+Starting function navigate
+Ending  function navigate with status PASS
+waitForPageToLoad ---  --- 
+New Generated Value ::7
+waitForPageToLoad ---  --- 
+New Generated Value ::7
+input --- verification_Code_xpath --- VerificationCode
+New Generated Value ::10
+Starting function input ::verification_Code_xpath , RVEJX6
+Finding element verification_Code_xpath
+Ending  function click with status PASS
+input --- phone_number_xpath --- PhoneNumber
+New Generated Value ::4
+Starting function input ::phone_number_xpath , 262-361-2111
+Finding element phone_number_xpath
+Ending  function click with status PASS
+waitForPageToLoad ---  --- 
+New Generated Value ::7
+click --- continue_Btn_xpath --- 
+New Generated Value ::11
+Starting function clickcontinue_Btn_xpath
+Finding element continue_Btn_xpath
+Ending  function click with status PASS
+waitForPageToLoad ---  --- 
+New Generated Value ::8
+waitForPageToLoad ---  --- 
+New Generated Value ::3
+input --- authorized_Name_xpath --- Autho_Name
+New Generated Value ::8
+Starting function input ::authorized_Name_xpath , Test Name
+Finding element authorized_Name_xpath
+ERROR - UNABLE TO FIND ELEMET -  authorized_Name_xpath
+]]></system-out>
+    <system-err><![CDATA[java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.xavient.framework.util.OracleConnection.updateTable(OracleConnection.java:13)
+	at com.xavient.framework.WebApplicationSuite.charter_spectrum_login.charter_spectrum_login(charter_spectrum_login.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 11336
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WEB SUITE" parallel="methods" thread-count="3">
+
+	<test name="Tests">
+		<classes>
+		 <!-- <class name="com.xavient.framework.WebApplicationSuite.menu_management_add_menu"></class>  -->
+		 <!--<class name="com.xavient.framework.WebApplicationSuite.menu_management_edit_and_delete"></class>	-->	 
+		 <!--  <class name="com.xavient.framework.WebApplicationSuite.menu_management_search"></class>	-->	
+		 <class name="com.xavient.framework.WebApplicationSuite.charter_spectrum_login"></class>
+		</classes>		
+	</test>
+</suite>

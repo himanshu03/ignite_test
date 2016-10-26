@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="XAV-101000615" name="com.xavient.framework.WebApplicationSuite.charter_spectrum_login" tests="1" failures="1" timestamp="20 Sep 2016 09:45:26 GMT" time="117.904" errors="0">
+  <testcase name="charter_spectrum_login" time="61.544" classname="com.xavient.framework.WebApplicationSuite.charter_spectrum_login">
+    <failure type="java.lang.reflect.InvocationTargetException">
+      <![CDATA[java.lang.reflect.InvocationTargetException
+	at com.xavient.framework.WebApplicationSuite.charter_spectrum_login.charter_spectrum_login(charter_spectrum_login.java:44)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	... 19 more
+... Removed 16 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+2016-09-20 15:14:25,415 DEBUG [charter_spectrum_login - 1] Executing  charter_spectrum_login - {Autho_Name=Test Name, VerificationCode=RVEJX6, Runmode=Y, Iteration=1, PhoneNumber=262-361-2111, Browser=chrome}
+2016-09-20 15:14:26,211 DEBUG [charter_spectrum_login - 1] openBrowser ---  --- Browser
+2016-09-20 15:14:26,211 DEBUG [charter_spectrum_login - 1] Starting function openBrowser - chrome
+2016-09-20 15:14:30,295 DEBUG [charter_spectrum_login - 1] Ending  function openBrowser with status PASS
+2016-09-20 15:14:30,998 DEBUG [charter_spectrum_login - 1] navigate ---  --- 
+2016-09-20 15:14:30,998 DEBUG [charter_spectrum_login - 1] Starting function navigate
+2016-09-20 15:14:39,033 DEBUG [charter_spectrum_login - 1] Ending  function navigate with status PASS
+2016-09-20 15:14:39,735 DEBUG [charter_spectrum_login - 1] waitForPageToLoad ---  --- 
+2016-09-20 15:14:40,407 DEBUG [charter_spectrum_login - 1] waitForPageToLoad ---  --- 
+2016-09-20 15:14:41,063 DEBUG [charter_spectrum_login - 1] input --- verification_Code_xpath --- VerificationCode
+2016-09-20 15:14:41,063 DEBUG [charter_spectrum_login - 1] Starting function input ::verification_Code_xpath , RVEJX6
+2016-09-20 15:14:41,063 DEBUG [charter_spectrum_login - 1] Finding element verification_Code_xpath
+2016-09-20 15:14:41,142 DEBUG [charter_spectrum_login - 1] Ending  function click with status PASS
+2016-09-20 15:14:41,826 DEBUG [charter_spectrum_login - 1] input --- phone_number_xpath --- PhoneNumber
+2016-09-20 15:14:41,826 DEBUG [charter_spectrum_login - 1] Starting function input ::phone_number_xpath , 262-361-2111
+2016-09-20 15:14:41,826 DEBUG [charter_spectrum_login - 1] Finding element phone_number_xpath
+2016-09-20 15:14:41,863 DEBUG [charter_spectrum_login - 1] Ending  function click with status PASS
+2016-09-20 15:14:42,700 DEBUG [charter_spectrum_login - 1] waitForPageToLoad ---  --- 
+2016-09-20 15:14:43,358 DEBUG [charter_spectrum_login - 1] click --- continue_Btn_xpath --- 
+2016-09-20 15:14:43,358 DEBUG [charter_spectrum_login - 1] Starting function clickcontinue_Btn_xpath
+2016-09-20 15:14:43,358 DEBUG [charter_spectrum_login - 1] Finding element continue_Btn_xpath
+2016-09-20 15:14:43,407 DEBUG [charter_spectrum_login - 1] Ending  function click with status PASS
+2016-09-20 15:14:44,072 DEBUG [charter_spectrum_login - 1] waitForPageToLoad ---  --- 
+2016-09-20 15:14:44,762 DEBUG [charter_spectrum_login - 1] waitForPageToLoad ---  --- 
+2016-09-20 15:14:45,420 DEBUG [charter_spectrum_login - 1] input --- authorized_Name_xpath --- Autho_Name
+2016-09-20 15:14:45,420 DEBUG [charter_spectrum_login - 1] Starting function input ::authorized_Name_xpath , Test Name
+2016-09-20 15:14:45,420 DEBUG [charter_spectrum_login - 1] Finding element authorized_Name_xpath
+2016-09-20 15:15:26,833 DEBUG [charter_spectrum_login - 1] ERROR - UNABLE TO FIND ELEMET -  authorized_Name_xpath

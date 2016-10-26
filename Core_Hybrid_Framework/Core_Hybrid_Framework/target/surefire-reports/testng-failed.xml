@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="0" name="Failed suite [WEB SUITE]" parallel="methods">
+  <test name="Tests(failed)" parallel="methods" preserve-order="false">
+    <classes>
+      <class name="com.xavient.framework.WebApplicationSuite.charter_spectrum_login">
+        <methods>
+          <include name="charter_spectrum_login" invocation-numbers="0"/>
+          <include name="config"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

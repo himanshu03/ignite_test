@@ -1,0 +1,92 @@
+2016-09-05 11:13:20,210 DEBUG [menu_management_edit_and_delete - 1] Executing  menu_management_edit_and_delete - {url=/http, maskurl=Testing, menu=Gautam123, Username=s_rsriva, Runmode=Y, Iteration=1, Domain=BPO_FS, updatedValue=Vinay, Password=test123, Browser=chrome, parent_menu=S}
+2016-09-05 11:13:20,450 DEBUG [menu_management_edit_and_delete - 1] openBrowser ---  --- Browser
+2016-09-05 11:13:20,451 DEBUG [menu_management_edit_and_delete - 1] Starting function openBrowser - chrome
+2016-09-05 11:13:27,187 DEBUG [menu_management_edit_and_delete - 1] Ending  function openBrowser with status PASS
+2016-09-05 11:13:27,379 DEBUG [menu_management_edit_and_delete - 1] navigate ---  --- 
+2016-09-05 11:13:27,380 DEBUG [menu_management_edit_and_delete - 1] Starting function navigate
+2016-09-05 11:14:15,512 DEBUG [menu_management_edit_and_delete - 1] Ending  function navigate with status PASS
+2016-09-05 11:14:15,607 DEBUG [menu_management_edit_and_delete - 1] input --- domain_xpath --- Domain
+2016-09-05 11:14:15,607 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::domain_xpath , BPO_FS
+2016-09-05 11:14:15,607 DEBUG [menu_management_edit_and_delete - 1] Finding element domain_xpath
+2016-09-05 11:14:15,957 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:16,054 DEBUG [menu_management_edit_and_delete - 1] input --- username_xpath --- Username
+2016-09-05 11:14:16,054 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::username_xpath , s_rsriva
+2016-09-05 11:14:16,054 DEBUG [menu_management_edit_and_delete - 1] Finding element username_xpath
+2016-09-05 11:14:16,131 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:16,228 DEBUG [menu_management_edit_and_delete - 1] input --- password_xpath --- Password
+2016-09-05 11:14:16,228 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::password_xpath , test123
+2016-09-05 11:14:16,228 DEBUG [menu_management_edit_and_delete - 1] Finding element password_xpath
+2016-09-05 11:14:16,285 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:16,384 DEBUG [menu_management_edit_and_delete - 1] click --- sign_in_button_xpath --- 
+2016-09-05 11:14:16,384 DEBUG [menu_management_edit_and_delete - 1] Starting function clicksign_in_button_xpath
+2016-09-05 11:14:16,384 DEBUG [menu_management_edit_and_delete - 1] Finding element sign_in_button_xpath
+2016-09-05 11:14:16,443 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:16,559 DEBUG [menu_management_edit_and_delete - 1] click --- menu_manag_link_xpath --- 
+2016-09-05 11:14:16,560 DEBUG [menu_management_edit_and_delete - 1] Starting function clickmenu_manag_link_xpath
+2016-09-05 11:14:16,560 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_manag_link_xpath
+2016-09-05 11:14:20,253 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:20,353 DEBUG [menu_management_edit_and_delete - 1] clickByJS --- addMenu_xpath --- 
+2016-09-05 11:14:20,353 DEBUG [menu_management_edit_and_delete - 1] Starting function clickaddMenu_xpath
+2016-09-05 11:14:20,354 DEBUG [menu_management_edit_and_delete - 1] Finding element addMenu_xpath
+2016-09-05 11:14:20,385 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:20,494 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:20,620 DEBUG [menu_management_edit_and_delete - 1] input --- menu_xpath --- menu
+2016-09-05 11:14:20,620 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::menu_xpath , Gautam123
+2016-09-05 11:14:20,622 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_xpath
+2016-09-05 11:14:20,704 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:20,838 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:20,958 DEBUG [menu_management_edit_and_delete - 1] input --- parentmenu_xpath --- parent_menu
+2016-09-05 11:14:20,958 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::parentmenu_xpath , S
+2016-09-05 11:14:20,958 DEBUG [menu_management_edit_and_delete - 1] Finding element parentmenu_xpath
+2016-09-05 11:14:21,012 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:21,149 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:21,295 DEBUG [menu_management_edit_and_delete - 1] clear --- parentmenu_xpath --- 
+2016-09-05 11:14:21,295 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::parentmenu_xpath , null
+2016-09-05 11:14:21,295 DEBUG [menu_management_edit_and_delete - 1] Finding element parentmenu_xpath
+2016-09-05 11:14:21,348 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:21,512 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:21,688 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:21,864 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:21,974 DEBUG [menu_management_edit_and_delete - 1] input --- parentmenu_xpath --- parent_menu
+2016-09-05 11:14:21,974 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::parentmenu_xpath , S
+2016-09-05 11:14:21,974 DEBUG [menu_management_edit_and_delete - 1] Finding element parentmenu_xpath
+2016-09-05 11:14:22,006 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:22,112 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:22,224 DEBUG [menu_management_edit_and_delete - 1] click --- parentmenufirstValue_xpath --- 
+2016-09-05 11:14:22,224 DEBUG [menu_management_edit_and_delete - 1] Starting function clickparentmenufirstValue_xpath
+2016-09-05 11:14:22,225 DEBUG [menu_management_edit_and_delete - 1] Finding element parentmenufirstValue_xpath
+2016-09-05 11:14:25,639 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:25,747 DEBUG [menu_management_edit_and_delete - 1] input --- maskUrl_xpath --- maskurl
+2016-09-05 11:14:25,747 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::maskUrl_xpath , Testing
+2016-09-05 11:14:25,748 DEBUG [menu_management_edit_and_delete - 1] Finding element maskUrl_xpath
+2016-09-05 11:14:25,811 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:25,926 DEBUG [menu_management_edit_and_delete - 1] input --- Url_xpath --- url
+2016-09-05 11:14:25,926 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::Url_xpath , /http
+2016-09-05 11:14:25,927 DEBUG [menu_management_edit_and_delete - 1] Finding element Url_xpath
+2016-09-05 11:14:25,985 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:26,092 DEBUG [menu_management_edit_and_delete - 1] click --- saveBtn_xpath --- 
+2016-09-05 11:14:26,092 DEBUG [menu_management_edit_and_delete - 1] Starting function clicksaveBtn_xpath
+2016-09-05 11:14:26,092 DEBUG [menu_management_edit_and_delete - 1] Finding element saveBtn_xpath
+2016-09-05 11:14:26,145 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:26,252 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:26,360 DEBUG [menu_management_edit_and_delete - 1] waitForPageToLoad ---  --- 
+2016-09-05 11:14:26,477 DEBUG [menu_management_edit_and_delete - 1] click --- menu_mana_action_edit_xpath --- 
+2016-09-05 11:14:26,477 DEBUG [menu_management_edit_and_delete - 1] Starting function clickmenu_mana_action_edit_xpath
+2016-09-05 11:14:26,477 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_mana_action_edit_xpath
+2016-09-05 11:14:27,484 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:27,577 DEBUG [menu_management_edit_and_delete - 1] clear --- menu_edit_field_xpath --- 
+2016-09-05 11:14:27,578 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::menu_edit_field_xpath , null
+2016-09-05 11:14:27,578 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_edit_field_xpath
+2016-09-05 11:14:27,830 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:27,994 DEBUG [menu_management_edit_and_delete - 1] input --- menu_edit_field_xpath --- updatedValue
+2016-09-05 11:14:27,994 DEBUG [menu_management_edit_and_delete - 1] Starting function input ::menu_edit_field_xpath , Vinay
+2016-09-05 11:14:27,994 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_edit_field_xpath
+2016-09-05 11:14:28,046 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:28,169 DEBUG [menu_management_edit_and_delete - 1] click --- menu_edit_saveBtn_field_xpath --- 
+2016-09-05 11:14:28,170 DEBUG [menu_management_edit_and_delete - 1] Starting function clickmenu_edit_saveBtn_field_xpath
+2016-09-05 11:14:28,170 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_edit_saveBtn_field_xpath
+2016-09-05 11:14:28,222 DEBUG [menu_management_edit_and_delete - 1] Ending  function click with status PASS
+2016-09-05 11:14:28,348 DEBUG [menu_management_edit_and_delete - 1] click --- menu_mana_action_delete_xpath --- 
+2016-09-05 11:14:28,348 DEBUG [menu_management_edit_and_delete - 1] Starting function clickmenu_mana_action_delete_xpath
+2016-09-05 11:14:28,348 DEBUG [menu_management_edit_and_delete - 1] Finding element menu_mana_action_delete_xpath
+2016-09-05 11:15:10,618 DEBUG [menu_management_edit_and_delete - 1] ERROR - UNABLE TO FIND ELEMET -  menu_mana_action_delete_xpath

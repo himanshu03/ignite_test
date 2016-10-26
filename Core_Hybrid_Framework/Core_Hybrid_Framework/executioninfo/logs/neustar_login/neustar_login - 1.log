@@ -1,0 +1,24 @@
+2016-08-29 17:46:39,519 DEBUG [neustar_login - 1] Executing  neustar_login - {Username=bpeluser, Password=bpeluser, Domain=TWC_PAT, Runmode=Y, Iteration=1, Browser=chrome}
+2016-08-29 17:46:40,051 DEBUG [neustar_login - 1] openBrowser ---  --- Browser
+2016-08-29 17:46:40,053 DEBUG [neustar_login - 1] Starting function openBrowser - chrome
+2016-08-29 17:46:50,201 DEBUG [neustar_login - 1] Ending  function openBrowser with status PASS
+2016-08-29 17:46:50,397 DEBUG [neustar_login - 1] navigate ---  --- 
+2016-08-29 17:46:50,397 DEBUG [neustar_login - 1] Starting function navigate
+2016-08-29 17:47:06,800 DEBUG [neustar_login - 1] Ending  function navigate with status PASS
+2016-08-29 17:47:06,918 DEBUG [neustar_login - 1] input --- domain_xpath --- Domain
+2016-08-29 17:47:06,918 DEBUG [neustar_login - 1] Starting function input ::domain_xpath , TWC_PAT
+2016-08-29 17:47:06,918 DEBUG [neustar_login - 1] Finding element domain_xpath
+2016-08-29 17:47:09,630 DEBUG [neustar_login - 1] Ending  function click with status PASS
+2016-08-29 17:47:09,698 DEBUG [neustar_login - 1] input --- username_xpath --- Username
+2016-08-29 17:47:09,698 DEBUG [neustar_login - 1] Starting function input ::username_xpath , bpeluser
+2016-08-29 17:47:09,698 DEBUG [neustar_login - 1] Finding element username_xpath
+2016-08-29 17:47:10,591 DEBUG [neustar_login - 1] Ending  function click with status PASS
+2016-08-29 17:47:10,799 DEBUG [neustar_login - 1] input --- password_xpath --- Password
+2016-08-29 17:47:10,799 DEBUG [neustar_login - 1] Starting function input ::password_xpath , bpeluser
+2016-08-29 17:47:10,799 DEBUG [neustar_login - 1] Finding element password_xpath
+2016-08-29 17:47:13,523 DEBUG [neustar_login - 1] Ending  function click with status PASS
+2016-08-29 17:47:13,676 DEBUG [neustar_login - 1] click --- sign_in_button_xpath --- 
+2016-08-29 17:47:13,677 DEBUG [neustar_login - 1] Starting function clicksign_in_button_xpath
+2016-08-29 17:47:13,677 DEBUG [neustar_login - 1] Finding element sign_in_button_xpath
+2016-08-29 17:47:15,331 DEBUG [neustar_login - 1] Ending  function click with status PASS
+2016-08-29 17:47:15,486 DEBUG [neustar_login - 1] Ending neustar_login

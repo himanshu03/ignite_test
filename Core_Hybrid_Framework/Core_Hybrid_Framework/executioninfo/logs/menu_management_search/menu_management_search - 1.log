@@ -1,0 +1,56 @@
+2016-09-05 17:46:07,819 DEBUG [menu_management_search - 1] Executing  menu_management_search - {Username=s_rsriva, parent_menu=S, Password=test123, Domain=BPO_FS, Runmode=Y, Iteration=1, menu=h, Browser=chrome}
+2016-09-05 17:46:08,044 DEBUG [menu_management_search - 1] openBrowser ---  --- Browser
+2016-09-05 17:46:08,059 DEBUG [menu_management_search - 1] Starting function openBrowser - chrome
+2016-09-05 17:46:17,454 DEBUG [menu_management_search - 1] Ending  function openBrowser with status PASS
+2016-09-05 17:46:17,597 DEBUG [menu_management_search - 1] navigate ---  --- 
+2016-09-05 17:46:17,597 DEBUG [menu_management_search - 1] Starting function navigate
+2016-09-05 17:48:50,562 DEBUG [menu_management_search - 1] Ending  function navigate with status PASS
+2016-09-05 17:48:50,656 DEBUG [menu_management_search - 1] input --- domain_xpath --- Domain
+2016-09-05 17:48:50,656 DEBUG [menu_management_search - 1] Starting function input ::domain_xpath , BPO_FS
+2016-09-05 17:48:50,656 DEBUG [menu_management_search - 1] Finding element domain_xpath
+2016-09-05 17:48:51,034 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:51,125 DEBUG [menu_management_search - 1] input --- username_xpath --- Username
+2016-09-05 17:48:51,125 DEBUG [menu_management_search - 1] Starting function input ::username_xpath , s_rsriva
+2016-09-05 17:48:51,125 DEBUG [menu_management_search - 1] Finding element username_xpath
+2016-09-05 17:48:51,231 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:51,324 DEBUG [menu_management_search - 1] input --- password_xpath --- Password
+2016-09-05 17:48:51,324 DEBUG [menu_management_search - 1] Starting function input ::password_xpath , test123
+2016-09-05 17:48:51,324 DEBUG [menu_management_search - 1] Finding element password_xpath
+2016-09-05 17:48:51,383 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:51,456 DEBUG [menu_management_search - 1] click --- sign_in_button_xpath --- 
+2016-09-05 17:48:51,456 DEBUG [menu_management_search - 1] Starting function clicksign_in_button_xpath
+2016-09-05 17:48:51,456 DEBUG [menu_management_search - 1] Finding element sign_in_button_xpath
+2016-09-05 17:48:51,537 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:51,607 DEBUG [menu_management_search - 1] click --- menu_manag_link_xpath --- 
+2016-09-05 17:48:51,607 DEBUG [menu_management_search - 1] Starting function clickmenu_manag_link_xpath
+2016-09-05 17:48:51,607 DEBUG [menu_management_search - 1] Finding element menu_manag_link_xpath
+2016-09-05 17:48:54,770 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:54,834 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:54,931 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,010 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,086 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,171 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,258 DEBUG [menu_management_search - 1] input --- menu_search_xpath --- menu
+2016-09-05 17:48:55,258 DEBUG [menu_management_search - 1] Starting function input ::menu_search_xpath , h
+2016-09-05 17:48:55,258 DEBUG [menu_management_search - 1] Finding element menu_search_xpath
+2016-09-05 17:48:55,360 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:55,430 DEBUG [menu_management_search - 1] clear --- menu_search_xpath --- 
+2016-09-05 17:48:55,430 DEBUG [menu_management_search - 1] Starting function input ::menu_search_xpath , null
+2016-09-05 17:48:55,430 DEBUG [menu_management_search - 1] Finding element menu_search_xpath
+2016-09-05 17:48:55,463 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:55,536 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,614 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,771 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,902 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:55,989 DEBUG [menu_management_search - 1] input --- menu_search_xpath --- menu
+2016-09-05 17:48:55,989 DEBUG [menu_management_search - 1] Starting function input ::menu_search_xpath , h
+2016-09-05 17:48:55,989 DEBUG [menu_management_search - 1] Finding element menu_search_xpath
+2016-09-05 17:48:56,019 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:56,102 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:56,186 DEBUG [menu_management_search - 1] click --- menu_search_firstValue_xpath --- 
+2016-09-05 17:48:56,186 DEBUG [menu_management_search - 1] Starting function clickmenu_search_firstValue_xpath
+2016-09-05 17:48:56,186 DEBUG [menu_management_search - 1] Finding element menu_search_firstValue_xpath
+2016-09-05 17:48:56,417 DEBUG [menu_management_search - 1] Ending  function click with status PASS
+2016-09-05 17:48:56,512 DEBUG [menu_management_search - 1] waitForPageToLoad ---  --- 
+2016-09-05 17:48:56,598 DEBUG [menu_management_search - 1] VerifyingField --- verify_search_result_xpath --- 
+2016-09-05 17:48:56,711 DEBUG [menu_management_search - 1] Ending menu_management_search

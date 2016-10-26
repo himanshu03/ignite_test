@@ -1,0 +1,1 @@
+2016-09-01 19:30:28,742 DEBUG [menu_management_add_menu - 1] Executing  menu_management_add_menu - {url=/http, maskurl=Testing, menu=Gautam, Username=bpeluser, Runmode=Y, Iteration=1, Domain=TWC_PAT, Password=bpeluser, Browser=chrome, parent_menu=a}
