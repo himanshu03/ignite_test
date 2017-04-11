@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3723684975">
+    <data-source source="LOCAL" name="Oracle - @omsdb_qa_basic.neustar.biz" uuid="bd73dabf-18d2-48e2-9873-603a55985872">
+      <driver-ref>oracle</driver-ref>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@omsdb_qa_basic.neustar.biz:2115:nfclqa2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - nfclqa2@omsdb_qa_basic.neustar.biz" uuid="7a20b6df-3fa5-41e2-bdd1-c99162f0bac7">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://omsdb_qa_basic.neustar.biz:2115/nfclqa2</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

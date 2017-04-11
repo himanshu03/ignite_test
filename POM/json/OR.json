@@ -1,0 +1,380 @@
+{
+
+  "SSPURL": "https://sspgui-qa.neustar.com/charter#/",
+
+
+  "Locators":{
+
+
+    "Login":{
+
+      "GUID": "uuid",
+      "TELEPHONENUMBER": "telephoneNumber",
+      "LOGIN": "Continue..."
+
+    },
+
+    "URL": {
+
+      "SSPURL": "http://ssp-qaweb.neustar.biz/charter#/"
+    },
+
+    "TN_Verification_Text" : {
+      "text" : "//*[@id='newUserForm']/div[3]/div[2]"
+    },
+
+    "BuisnessNameClick" :
+    {
+
+      "Click" : "Ok"
+    },
+
+    "VerificationText":
+
+    {
+      "GUID" : "//*[@id='newUserForm']/div[2]/div",
+      "TELEPHONENUMBER" : "//*[@id='newUserForm']/div[3]/div[1]"
+    },
+
+    "Guid_InvalidMessage" : {
+
+      "Message" : "//*[@id='newUserForm']/div[1]"
+    },
+
+    "Guid_InvalidMessage1" : {
+
+      "Message1" : "//*[@id='newUserForm']/div[2]/div[2]"
+    },
+
+    "AlphanumericTn": {
+
+      "Popup_message": "//*[@id='newUserForm']/div[3]/div[2]"
+    },
+
+    "WrongName" : {
+
+      "firstName" : "fname",
+      "lastName" : "lname",
+      "Suffix" : "//*[@id='myText']"
+
+    },
+
+    "wrongname_Buisness" : {
+
+      "BuisnessName" : "//*[@id='collapse']/form/div/div/div/div[2]/div[4]/div/div/input"
+
+    },
+
+    "WrongNameSubmit": {
+
+      "SUBMIT" : "Submit"
+    },
+
+    "BuisnessName": {
+
+      "Buisness" : "bname"
+    },
+
+    "AccountName" : {
+
+      "accountName" : "//*[@id='collapse']/form/div/div/div/div[3]/div[1]/div/p[4]"
+    },
+
+    "AccountName_confirmation" :
+
+    {
+      "Confirmation_message" : "//*[@id='collapse']/form/div/div/div/div[1]"
+    },
+
+    "footerClick" :
+    {
+      "click" : "html/body/footer/div/img"
+    },
+
+    "Blank_accountname" :
+    {
+      "fname" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[2]/div[2]/div/div/div",
+      "lname" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[2]/div[3]/div/div/div"
+    },
+
+    "AccountNumber": {
+
+      "AccountName" : "accname"
+    },
+
+    "AccountNumberSubmit" :
+    {
+      "SUBMIT" : "Submit"
+    },
+
+    "ClientRedirection":{
+
+      "OK" : "//*[@id='collapse']/form/div/div/div/div/div[2]/div/div/a"
+    },
+
+    "accountNumberRejectionStatus" :
+    {
+      "status" : "//*[@id='collapse']/form/div/div/div/div[2]"
+    },
+
+    "accountNumberConfirmation" :
+    {
+      "confirm" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div"
+    },
+
+    "blankAccountNumber" :
+    {
+      "BlankMessage" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div"
+    },
+
+    "freezeValidationMessage" : {
+
+      "Template_Message" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div"
+    },
+
+    "freezeRejectionMessage" :
+    {
+      "Rejection_Message" : "//*[@id='collapse']/form/div/div/div/div[2]/div[1]/div/p[1]"
+    },
+
+    "freezeAccountConfirmationNumber": {
+      "Confirm" : "fnumber"
+    },
+
+    "freezeAccountConfirmationClick" : {
+      "Click" : "fconfirm"
+    },
+
+    "freezeConfirmationMessage" : {
+      "Confirmation_Message" : "//*[@id='collapse']/form/div/div/div/div[1]"
+    },
+
+    "authorizedNamerejectionMessage" :
+    {
+      "Rejection" : "//*[@id='collapse']/form/div/div/div/div[2]"
+    },
+
+    "authorizedNameData" :
+    {
+      "AuthorizeName" : "accname"
+    },
+
+    "authorizedNameConfirmationMessage" :
+    {
+      "Confirm" : "//*[@id='collapse']/form/div/div/div/div[1]"
+    },
+
+    "changeDueDateConfirmationMessage" :
+    {
+      "Inprocess" : "//*[@id='collapse']/form/div/div/div/div[1]"
+    },
+
+    "authorizedNameBlankvalidation":
+    {
+      "BlankMessage" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div"
+    },
+
+    "Pin_RejectionMessage" :
+    {
+      "rejection" : "//*[@id='collapse']/form/div/div/div/div[2]"
+    },
+
+    "Pin_validData" : {
+
+      "PIN" : "pinpwd"
+    },
+
+    "Pin_Confirmation": {
+
+      "Confirm" : "//*[@id='collapse']/form/div/div/div/div[1]"
+    },
+
+    "Pin_InvalidData" :
+    {
+      "InvalidKey" : "//*[@class='error bubble']"
+    },
+
+    "PinPassword_blank" :
+    {
+      "blank" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[1]/div[2]/div/div/div[2]"
+    },
+
+    "WrongAddress" :
+    {
+      "ADDRESS1" : "mailadd1",
+      "ADDRESS2" : "mailadd2",
+      "UNIT" : "unit",
+      "CITY" : "city",
+      "STATE" : "state",
+      "ZIPCODE" : "zip"
+    },
+
+    "wrongAddressrejectionStatus" : {
+
+      "Rejection" : "//*[@id='collapse']/form/div/div/div/div[2]"
+    },
+
+    "wrongAddressConfirmationMessage" : {
+
+      "Confirm" : "//*[@id='collapse']/form/div/div/div/div[1]"
+
+    },
+
+    "wrongAddressRedirection" : {
+
+      "Wrong_Address_Redirection" : "//*[@id='collapse']/form/div/div/div/div/div[2]/div/div/a"
+
+    },
+
+    "address1_Blank" : {
+
+      "Address" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[2]/div[2]/div/div[2]"
+    },
+
+    "City_Blank" : {
+
+      "city" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[3]/div[2]/div/div[2]"
+    },
+
+    "State_Blank" : {
+
+      "state" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[3]/div[3]/div/div[2]"
+    },
+
+    "Zipcode_Blank" : {
+
+      "Zip" : "//*[@id='collapse']/form/div/div/div/div[3]/div[2]/div[3]/div[4]/div/div[2]"
+
+
+    },
+
+    "changeDueDateText" :
+
+    {
+      "changeDueDateRejectionHeading" : "//*[@id='collapse']/form/div/div/div/div[2]"
+    },
+    "changeDueDateText_1":
+    {
+      "changeDueDateRejectionMessage" : "//*[@id='collapse']/form/div/div/div/div[3]/div[1]/div/p[1]"
+    },
+
+    "AcceptDate_Selection" :
+    {
+      "Accept" : "Accept this installation date"
+    },
+
+    "Different_date" :
+    {
+      "Date_value" : "16"
+    },
+
+    "DateSelection" :
+    {
+      "Date" : "Select a different installation date..."
+    }
+  },
+
+  "ValidLoginData": {
+
+    "GUID"  : "AIFQC1",
+    "GUID1" : "SGPOM5",
+    "GUID2" : "HPHPML",
+    "GUID3" : "QCF8VN",
+    "GUID4" : "UZQOPF",
+    "GUID5" : "9YLLPM",
+    "GUID6" : "PQ3I02",
+    "GUID7" : "UC0NRE",
+    "GUID8" : "XT4QGO",
+    "GUID9" : "7RYDRC",
+    "GUID10" : "ENKYDO",
+    "TELEPHONENUMBER": "262-361-0330",
+    "TELEPHONENUMBER1": "262-361-2161"
+
+
+  },
+
+  "InvalidGUIDData":
+  {
+    "GUID" : "472894",
+    "TELEPHONENUMBER": "1234567890"
+  },
+
+  "InvalidTnData":
+  {
+    "GUID" : "472894",
+    "TELEPHONENUMBER": "123456789o"
+  },
+
+  "ValidGuid_InvalidTn":
+  {
+    "GUID" : "472895",
+    "TELEPHONENUMBER": "123"
+
+  },
+
+  "ValidTn_InvalidGuid":
+  {
+    "GUID" : "12345",
+    "TELEPHONENUMBER": "1234567890"
+
+  },
+
+  "BothBlanks":
+  {
+    "GUID" : "",
+    "TELEPHONENUMBER": ""
+  },
+
+  "AlphaCharacter": {
+
+    "FirstName" : "Himanshu",
+    "LastName" : "Verma",
+    "Suffix" : "Jr"
+  },
+
+  "BuisnessName" : {
+
+    "Buisness" : "Dominos"
+  },
+
+  "WrongName_inNumeric": {
+
+    "firstname" : "12345667879",
+    "lastname" : "123456789"
+  },
+
+  "Wrongname_Space" : {
+    "firstname" : "    Xavient",
+    "lastname" : "     Noida"
+  },
+
+  "NumericBuisnessName" :
+  {
+    "Buisness" : "1234567879"
+  },
+
+  "AccountName_specialCharacter" :
+
+  {
+    "firstname" : "ASC@#$%^&*(",
+    "lastname" : "ASB%^*&&^(**&%&&^"
+  },
+
+  "SpecialCharacter_buisnessName" : {
+
+    "Buisness" : "ASCDE!@#%$^&&*&^^%"
+  },
+
+  "ValidAccountNumberLoginData" :
+  {
+    "GUID" : "472893",
+    "TELEPHONENUMBER" : "3195234254"
+  },
+
+  "ValidAccountNumber":{
+
+    "AccountNumber" : "1234567890"
+  }
+
+
+}
